@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     if event["httpMethod"] == "GET":
         return {
             'statusCode': 200,
-            'body': json.dumps('Hello, please send base64 doc to use this lamda!')
+            'body': json.dumps('Hello, please send base64 doc to use this Lambda function!')
         }
 
     elif event["httpMethod"] == "POST":
