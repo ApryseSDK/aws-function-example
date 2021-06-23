@@ -6,7 +6,7 @@ const { PDFNet } = require('@pdftron/pdfnet-node');
 
 exports.handler = async (event) => {
     let response = null;
-    if(event["httpMethod"] != "POST")
+    if(event.httpMethod != "POST")
     {
         response = {
             statusCode: 200,
