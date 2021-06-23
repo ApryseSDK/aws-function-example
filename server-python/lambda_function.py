@@ -1,3 +1,7 @@
+# This example shows how to create AWS Lambda functions using PDFTron SDK.
+# A REST API request was posted with base64 encoded data by the client.
+# The request would be processed by the server and a response with base64 encoded data of OfficeToPDF output would be sent to the client.
+
 from base64 import b64encode, b64decode
 import json
 
